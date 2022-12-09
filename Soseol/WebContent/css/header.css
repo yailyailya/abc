@@ -1,0 +1,38 @@
+.flex{
+	display: flex;
+}
+.sub{
+position: relative;
+display: inline-block;
+}
+.menu{
+ margin-bottom : 0;
+ display: block;
+}
+.menu:hover+ .sub {
+	display: inline-block;
+}
+
+li {
+/* 	float: left; */
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	padding: 5px;
+}
+
+header {
+	border-bottom: 2px solid black;
+	margin-bottom: 40px;
+}
+.sub{
+	display: none;
+	margin: 0;
+}
+.sub:hover {
+	display: inline-block;
+}

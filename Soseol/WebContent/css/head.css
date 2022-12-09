@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+a{
+text-decoration: none;
+}
+
+li {
+display: block;
+}
+
+ul, li{
+	list-style: none;	
+}
+.flex{
+	display: flex;
+}	
